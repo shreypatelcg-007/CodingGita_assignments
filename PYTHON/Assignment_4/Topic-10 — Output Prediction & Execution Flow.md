@@ -147,7 +147,7 @@ Explanation:
 
 -->`has_id` → False
 
--->So the inner `else` executes.
+--> So the inner `else` executes.
 
 ---------------------------------
 
@@ -163,7 +163,8 @@ Explanation:
 
 -->Therefore, Python doesn't enter the inner `if` at all.
 
--->The outer `else` executes.
+--> The outer `else` executes.
+
 ---
 
 ## Q74. `match-case` and Default Case
