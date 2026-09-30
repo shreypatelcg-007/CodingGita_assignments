@@ -133,7 +133,7 @@ Explanation:
 
 -->Therefore, it prints Entry Allowed.
 
-
+-------------------------------
 
 `age = 20, has_id = False`
 
@@ -149,7 +149,7 @@ Explanation:
 
 -->So the inner `else` executes.
 
-
+---------------------------------
 
 `age = 16, has_id = True`
 
