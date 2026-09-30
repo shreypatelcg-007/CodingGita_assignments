@@ -131,7 +131,7 @@ Explanation:
 
 -->`has_id` is `True`.
 
--->Therefore, it prints Entry Allowed.
+--> Therefore, it prints `Entry Allowed`
 
 -------------------------------
 
