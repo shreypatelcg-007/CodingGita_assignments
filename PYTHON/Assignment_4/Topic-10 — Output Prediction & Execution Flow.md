@@ -125,13 +125,15 @@ Output:
 
 Explanation:
 
--`20 >= 18` → True
+-->`20 >= 18` → True
 
--So Python enters the first if.
+-->So Python enters the first if.
 
--`has_id` is `True`.
+-->`has_id` is `True`.
 
--Therefore, it prints Entry Allowed.
+-->Therefore, it prints Entry Allowed.
+
+
 
 `age = 20, has_id = False`
 
@@ -141,11 +143,13 @@ Output:
 
 Explanation:
 
-`20 >= 18` → True
+-->`20 >= 18` → True
 
-`has_id` → False
+-->`has_id` → False
 
-So the inner `else` executes.
+-->So the inner `else` executes.
+
+
 
 `age = 16, has_id = True`
 
@@ -155,11 +159,11 @@ Output:
 
 Explanation:
 
-`16 >= 18` → False
+-->`16 >= 18` → False
 
-Therefore, Python doesn't enter the inner `if` at all.
+-->Therefore, Python doesn't enter the inner `if` at all.
 
-The outer `else` executes.
+-->The outer `else` executes.
 ---
 
 ## Q74. `match-case` and Default Case
@@ -187,6 +191,37 @@ match choice:
 `5 → ?`
 
 Explain the purpose of `case _`.
+
+## ANSWER
+
+`choice = 1`
+
+Output:
+
+`Add`
+
+------------------
+
+`choice = 3`
+
+Output:
+
+`Delete`
+
+-------------------
+
+`choice = 5`
+
+Output:
+
+`invalid Choice `
+
+--------------------
+
+Explanation:
+
+`case _` is the default case.
+It runs when none of the other cases match the value.
 
 ---
 
@@ -219,6 +254,85 @@ else:
 `92 60 → ?`
 
 After predicting the output, write in one sentence which condition is checked first and why.
+
+## ANSWER
+
+`82 80`
+
+Output:
+
+`Grade B`
+
+Explanation:
+
+--> Attendance `80 >= 75` → True
+
+--> Marks `82 >= 90` → False
+
+--> Marks `82 >= 75` → True
+
+--> Therefore → `Grade B`
+
+--------------------
+
+`92 80`
+
+Output:
+
+`Grade A`
+
+Explanation:
+
+--> Attendance `80 >= 75` → True
+
+--> Marks `92 >= 90` → True
+
+--> Therefore → `Grade A`
+
+--------------------
+
+`55 80`
+
+Output:
+
+`Pass`
+
+Explanation:
+
+--> Attendance `80 >= 75` → True
+
+--> `55 >= 90` → False
+
+--> `55 >= 75` → False
+
+--> `55 >= 40` → True
+
+--> Therefore → `Pass`
+
+------------------
+
+`92 60`
+
+Output:
+
+`Not Eligible`
+
+Explanation:
+
+--> Attendance `60 >= 75` → False
+
+--> Therefore Python immediately goes to the outer `else`.
+
+--> It prints `Not Eligible`.
+
+--> The marks conditions are never checked.
+
+
+One-sentence answer:
+
+The attendance condition is checked first because it is the outer `if`, and the marks conditions are checked only when attendance is at least 75.
+
+
 
 ---
 
