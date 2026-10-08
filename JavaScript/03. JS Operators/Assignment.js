@@ -5,16 +5,24 @@
 
 // 1. ADDITION (+)
 
-console.log("========== ADDITION(+) ==========");
-
 // 1
-console.log("1. Total collection:", 15000 + 12500);
+let collectionofoneclass=15000
+let collectionofanotherclass=12500
+let totalcollection = collectionofoneclass + collectionofanotherclass
+console.log("Total collection:", totalcollection);
 
 // 2
-console.log("2. Total pages:", 18 + 25);
+let pagesreadinmorning = 18
+let pagesreadinevening = 25
+let totalpagesreaded = pagesreadinmorning + pagesreadinevening
+
+console.log("Total pages:", totalpagesreaded);
 
 // 3
-console.log("3. Total items sold:", 125 + 178);
+let ItemsSoldOnMonday = 125
+let ItemSoldOnTuesday = 178
+let ToatalItemsSold = ItemsSoldOnMonday + ItemSoldOnTuesday
+console.log("Total items sold:", ToatalItemsSold);
 
 // 4
 let a1 = "10";
@@ -29,260 +37,378 @@ let result2 = x1 + y1;
 console.log("5. Output:", result2);
 
 // 6
-console.log("6. Output:", 15 + 27);
+let firstnumber = 15
+let secondnumber = 27
+let result = firstnumber + secondnumber
+console.log("Result:", result);
 
 // 7
-console.log("7. Total price:", 350 + 45);
+let bookprice = 350
+let penprice = 45
+let totalprice = bookprice + penprice
+console.log("Total price:", totalprice);
 
 // 8
-console.log("8. Output:", "25" + 10);
+let firstvalue = "25"
+let secondvalue = 10
+let result = firstvalue + secondvalue
+console.log("Result:", result);
 
 // 9
-let totalSpent = 750 + 320;
-let remainingBalance = 2000 - totalSpent;
-
-console.log("9. Total spent:", totalSpent);
-console.log("9. Remaining balance:", remainingBalance);
+let walletmoney = 2000
+let itemone = 750
+let itemtwo = 320
+let totalspent = itemone + itemtwo
+let remainingbalance = walletmoney - totalspent
+console.log("Total spent:", totalspent);
+console.log("Remaining balance:", remainingbalance);
 
 // 10
-console.log("10a:", 5 + "5" + 5);
-console.log("10b:", 5 + 5 + "5");
-console.log("10c:", "5" + 5 + 5);
+console.log(5 + "5" + 5);  // "555"  ( 5 + "5" -> "55", then "55" + 5 -> "555")
+console.log(5 + 5 + "5");  // "105"  (5 + 5 -> 10, then 10 + "5" -> "105")
+console.log("5" + 5 + 5);  // "555"  ("5" + 5 -> "55", then "55" + 5 -> "555")
 
 
-// 2. SUBTRACTION (-)
-
-console.log("\n========== SUBTRACTION (-) ==========");
+// 2. Subtraction (-)
 
 // 1
-console.log("1. Empty seats:", 80 - 53);
+let totalseats = 80
+let occupiedseats = 53
+let emptyseats = totalseats - occupiedseats
+console.log("Empty seats:", emptyseats);
 
 // 2
-console.log("2. Final marks:", 500 - 35);
+let totalmarks = 500
+let lostmarks = 35
+let finalmarks = totalmarks - lostmarks
+console.log("Final marks:", finalmarks);
 
 // 3
-console.log("3. Remaining boxes:", 2500 - 875);
+let totalboxes = 2500
+let sentboxes = 875
+let remainingboxes = totalboxes - sentboxes
+console.log("Remaining boxes:", remainingboxes);
 
 // 4
-let a2 = "10";
-let b2 = 3;
-let result3 = a2 - b2;
-console.log("4. Output:", result3);
+let firstvalue = "10"
+let secondvalue = 3
+let result = firstvalue - secondvalue
+console.log("Result:", result);
 
 // 5
-let x2 = "20";
-let y2 = "5";
-let result4 = x2 - y2;
-console.log("5. Output:", result4);
+let firstvalue = "20"
+let secondvalue = "5"
+let result = firstvalue - secondvalue
+console.log("Result:", result);
 
 // 6
-console.log("6. Output:", 100 - 37);
+let firstnumber = 100
+let secondnumber = 37
+let result = firstnumber - secondnumber
+console.log("Result:", result);
 
 // 7
-console.log("7. Water left:", 500 - 175, "litres");
+let totalwater = 500
+let usedwater = 175
+let remainingwater = totalwater - usedwater
+console.log("Remaining water:", remainingwater);
 
 // 8
-console.log('8a. "50" - 20 =', "50" - 20);
-console.log('8b. "50" - "20" =', "50" - "20");
+let firstvalue = "50"
+let secondvalue = 20
+let resultone = firstvalue - secondvalue
+
+let thirdvalue = "50"
+let fourthvalue = "20"
+let resulttwo = thirdvalue - fourthvalue
+
+console.log("Result one:", resultone);
+console.log("Result two:", resulttwo);
 
 // 9
-let apples = 240;
-let applesLeft = apples - 95 - 67;
-console.log("9. Apples left:", applesLeft);
+let totalapples = 240
+let morningapples = 95
+let eveningapples = 67
+let remainingapples = totalapples - morningapples - eveningapples
+console.log("Remaining apples:", remainingapples);
 
 // 10
-console.log('10a. "100" - 50 =', "100" - 50);
-console.log('10b. "abc" - 10 =', "abc" - 10);
-console.log('10c. 10 - "5" - "2" =', 10 - "5" - "2");
-console.log('10d. "10" - "5" - "2" =', "10" - "5" - "2");
+console.log("100" - 50); //50 
+console.log("abc" - 10);  //NaN
+console.log(10 - "5" - "2");  //3
+console.log("10" - "5" - "2");  //3
 
-
-// 3. MULTIPLICATION (*)
-
-console.log("\n========== MULTIPLICATION (*) ==========");
+// 3. Multiplication (*)
 
 // 1
-console.log("1. Cost of 8 notebooks:", 45 * 8);
+let notebookprice = 45
+let numberofnotebooks = 8
+let totalcost = notebookprice * numberofnotebooks
+console.log("Total cost:", totalcost);
 
 // 2
-console.log("2. Bottles produced:", 120 * 6);
+let bottlesperhour = 120
+let numberofhours = 6
+let totalbottles = bottlesperhour * numberofhours
+console.log("Total bottles:", totalbottles);
 
 // 3
-console.log("3. Total plants:", 7 * 15);
+let numberofrows = 7
+let plantsperrow = 15
+let totalplants = numberofrows * plantsperrow
+console.log("Total plants:", totalplants);
 
 // 4
-let a3 = "5";
-let b3 = 4;
-let result5 = a3 * b3;
-console.log("4. Output:", result5);
+let firstvalue = "5"
+let secondvalue = 4
+let result = firstvalue * secondvalue
+console.log("Result:", result);
 
 // 5
-let x3 = "10";
-let y3 = "2";
-let result6 = x3 * y3;
-console.log("5. Output:", result6);
+let firstvalue = "10"
+let secondvalue = "2"
+let result = firstvalue * secondvalue
+console.log("Result:", result);
 
 // 6
-console.log("6. Output:", 12 * 8);
+let firstnumber = 12
+let secondnumber = 8
+let result = firstnumber * secondnumber
+console.log("Result:", result);
 
 // 7
-console.log("7. Cost of 4 pizzas:", 299 * 4);
+let pizzaprice = 299
+let numberofpizzas = 4
+let totalcost = pizzaprice * numberofpizzas
+console.log("Total cost:", totalcost);
 
 // 8
-console.log('8a. "7" * 6 =', "7" * 6);
-console.log('8b. "7" * "6" =', "7" * "6");
+let firstvalue = "7"
+let secondvalue = 6
+let resultone = firstvalue * secondvalue
+
+let thirdvalue = "7"
+let fourthvalue = "6"
+let resulttwo = thirdvalue * fourthvalue
+
+console.log("Result one:", resultone);
+console.log("Result two:", resulttwo);
 
 // 9
-let unitsProduced = 45 * 8;
-console.log("9. Units produced:", unitsProduced);
+let unitsperhour = 45
+let numberofhours = 8
+let totalunits = unitsperhour * numberofhours
+console.log("Total units:", totalunits);
 
 // 10
-console.log('10a. "5" * 3 * "2" =', "5" * 3 * "2");
-console.log('10b. "abc" * 4 =', "abc" * 4);
-console.log('10c. 10 * "2.5" =', 10 * "2.5");
-console.log('10d. "10" * "2.5" * "0" =', "10" * "2.5" * "0");
+console.log("5" * 3 * "2");   //30
+console.log("abc" * 4);   // Nan
+console.log(10 * "2.5");   //25
+console.log("10" * "2.5" * "0");   //0
 
-// 4. DIVISION (/)
-
-console.log("\n========== DIVISION (/) ==========");
+// 4. Division (/)
 
 // 1
-console.log("1. Pencils per student:", 144 / 12);
+let totalpencils = 144
+let numberofstudents = 12
+let pencilsperstudent = totalpencils / numberofstudents
+console.log("Pencils per student:", pencilsperstudent);
 
 // 2
-console.log("2. Distance per hour:", 360 / 6, "km/hour");
+let totaldistance = 360
+let totaltime = 6
+let distanceperhour = totaldistance / totaltime
+console.log("Distance per hour:", distanceperhour);
 
 // 3
-console.log("3. Amount per department:", 72000 / 9);
+let totalmoney = 72000
+let numberofdepartments = 9
+let moneyperdepartment = totalmoney / numberofdepartments
+console.log("Money per department:", moneyperdepartment);
 
 // 4
-let a4 = "20";
-let b4 = 4;
-let result7 = a4 / b4;
-console.log("4. Output:", result7);
+let firstvalue = "20"
+let secondvalue = 4
+let result = firstvalue / secondvalue
+console.log("Result:", result);
 
 // 5
-let x4 = "100";
-let y4 = "5";
-let result8 = x4 / y4;
-console.log("5. Output:", result8);
+let firstvalue = "100"
+let secondvalue = "5"
+let result = firstvalue / secondvalue
+console.log("Result:", result);
 
 // 6
-console.log("6. Output:", 144 / 12);
+let firstnumber = 144
+let secondnumber = 12
+let result = firstnumber / secondnumber
+console.log("Result:", result);
 
 // 7
-console.log("7. Students per classroom:", 360 / 9);
+let totalstudents = 360
+let numberofclassrooms = 9
+let studentsperclassroom = totalstudents / numberofclassrooms
+console.log("Students per classroom:", studentsperclassroom);
 
 // 8
-console.log('8a. "100" / 4 =', "100" / 4);
-console.log('8b. "100" / "4" =', "100" / "4");
+let firstvalue = "100"
+let secondvalue = 4
+let resultone = firstvalue / secondvalue
+
+let thirdvalue = "100"
+let fourthvalue = "4"
+let resulttwo = thirdvalue / fourthvalue
+
+console.log("Result one:", resultone);
+console.log("Result two:", resulttwo);
 
 // 9
-let billShare = 2400 / 6;
-console.log("9. Each friend's share:", billShare);
+let totalbill = 2400
+let numberoffriends = 6
+let shareperperson = totalbill / numberoffriends
+console.log("Share per person:", shareperperson);
 
 // 10
-console.log("10a. 10 / 0 =", 10 / 0);
-console.log("10b. -10 / 0 =", -10 / 0);
-console.log("10c. 0 / 0 =", 0 / 0);
-console.log('10d. "20" / "4" / 2 =', "20" / "4" / 2);
-console.log('10e. "abc" / 5 =', "abc" / 5);
+console.log(10 / 0);   // Infinity
+console.log(-10 / 0);   //-Infinity
+console.log(0 / 0);   // NaN
+console.log("20" / "4" / 2);  //2.5
+console.log("abc" / 5);   // NaN
 
-// 5. MODULUS (%)
-
-console.log("\n========== MODULUS (%) ==========");
+// 5. Modulus (%)
 
 // 1
-console.log("1. Students left:", 53 % 5);
+let totalstudents = 53
+let studentspergroup = 5
+let studentsleft = totalstudents % studentspergroup
+console.log("Students left:", studentsleft);
 
 // 2
-console.log("2. Candies left:", 128 % 10);
+let totalcandies = 128
+let candiesperbox = 10
+let candiesleft = totalcandies % candiesperbox
+console.log("Candies left:", candiesleft);
 
 // 3
-console.log("3. Toys left:", 237 % 6);
+let totaltoys = 237
+let toysperbox = 6
+let toysleft = totaltoys % toysperbox
+console.log("Toys left:", toysleft);
 
 // 4
-console.log("4. People left:", 185 % 40);
+let totalpeople = 185
+let peopleperbus = 40
+let peopleleft = totalpeople % peopleperbus
+console.log("People left:", peopleleft);
 
 // 5
-let a5 = 10;
-let b5 = 0;
-let result9 = a5 % b5;
-console.log("5. Output:", result9);
+let firstnumber = 10
+let secondnumber = 0
+let result = firstnumber % secondnumber
+console.log("Result:", result);
 
 // 6
-console.log("6. Output:", 29 % 5);
+let firstnumber = 29
+let secondnumber = 5
+let result = firstnumber % secondnumber
+console.log("Result:", result);
 
 // 7
-console.log("7. Chocolates left:", 23 % 4);
+let totalchocolates = 23
+let chocolatesperbox = 4
+let chocolatesleft = totalchocolates % chocolatesperbox
+console.log("Chocolates left:", chocolatesleft);
 
 // 8
-console.log("8a. 0 % 7 =", 0 % 7);
-console.log("8b. 15 % 0 =", 15 % 0);
+let firstnumber = 0
+let secondnumber = 7
+let resultone = firstnumber % secondnumber
+
+let thirdnumber = 15
+let fourthnumber = 0
+let resulttwo = thirdnumber % fourthnumber
+
+console.log("Result one:", resultone);
+console.log("Result two:", resulttwo);
 
 // 9
-let pages = 47;
-let pagesPerSheet = 6;
+let totalpages = 47
+let pagespersheet = 6
+let fullsheets = Math.floor(totalpages / pagespersheet)
+let pagesleft = totalpages % pagespersheet
 
-let fullSheets = Math.floor(pages / pagesPerSheet);
-let leftoverPages = pages % pagesPerSheet;
-
-console.log("9. Full sheets:", fullSheets);
-console.log("9. Leftover pages:", leftoverPages);
+console.log("Full sheets:", fullsheets);
+console.log("Pages left:", pagesleft);
 
 // 10
-console.log("10a. 17 % 5 =", 17 % 5);
-console.log("10b. -17 % 5 =", -17 % 5);
-console.log("10c. 17 % -5 =", 17 % -5);
-console.log("10d. -17 % -5 =", -17 % -5);
-console.log("10e. 10 % 0 =", 10 % 0);
+console.log(17 % 5);  // 2
+console.log(-17 % 5);  //-2
+console.log(17 % -5);  // 2
+console.log(-17 % -5);  //-2
+console.log(10 % 0);  // NaN  (modulus by zero is invalid)
 
-// 6. EXPONENTIATION (**)
-
-console.log("\n========== EXPONENTIATION (**) ==========");
+// 6. Exponentiation (**)
 
 // 1
-let cubeSide = 6;
-console.log("1. Cube volume:", cubeSide ** 3, "cm³");
+let sidelenght = 6
+let volume = sidelenght ** 3
+console.log("Volume:", volume);
 
 // 2
-let squareSide = 9;
-console.log("2. Total cells:", squareSide ** 2);
+let side = 9
+let totalcells = side ** 2
+console.log("Total cells:", totalcells);
 
 // 3
-console.log("3. 5 ** 4 =", 5 ** 4);
+let base = 5
+let power = 4
+let result = base ** power
+console.log("Result:", result);
 
 // 4
-let pixels = 1024;
-console.log("4. Total pixels:", pixels ** 2);
+let pixels = 1024
+let totalpixels = pixels ** 2
+console.log("Total pixels:", totalpixels);
 
 // 5
-let base = 2;
-let power = -1;
-let result10 = base ** power;
-console.log("5. Output:", result10);
+let base = 2
+let power = -1
+let result = base ** power
+console.log("Result:", result);
 
 // 6
-console.log("6. 3 ** 4 =", 3 ** 4);
+let base = 3
+let power = 4
+let result = base ** power
+console.log("Result:", result);
 
 // 7
-let side = 9;
-console.log("7. Square area:", side ** 2);
+let side = 9
+let area = side ** 2
+console.log("Area:", area);
 
 // 8
-console.log("8a. 2 ** 5 =", 2 ** 5);
-console.log("8b. 5 ** 2 =", 5 ** 2);
+let firstbase = 2
+let firstpower = 5
+let resultone = firstbase ** firstpower
+
+let secondbase = 5
+let secondpower = 2
+let resulttwo = secondbase ** secondpower
+
+console.log("Result one:", resultone);
+console.log("Result two:", resulttwo);
 
 // 9
-console.log("9a. 2 ** 3 ** 2 =", 2 ** 3 ** 2);
-console.log("9b. (2 ** 3) ** 2 =", (2 ** 3) ** 2);
-console.log("9c. 2 ** -3 =", 2 ** -3);
-console.log("9d. (-2) ** 2 =", (-2) ** 2);
-console.log("9e. 4 ** 0.5 =", 4 ** 0.5);
+console.log(2 ** 3 ** 2);  // 512
+console.log((2 ** 3) ** 2);  // 64
+console.log(2 ** -3);   // 0.125
+console.log((-2) ** 2);   //  4
+console.log(4 ** 0.5);   // 2  
 
 // 10
-let number = 10;
-let exponent = 0;
-let result11 = number ** exponent;
+let base = 10
+let power = 0
+let result = base ** power
+console.log("Result:", result);
 
-console.log("10. 10 ** 0 =", result11);
