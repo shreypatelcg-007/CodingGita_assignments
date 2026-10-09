@@ -1,3 +1,4 @@
+text=input("Enter Text:")
 even_index = 0
 
 for i in range(len(text)):
