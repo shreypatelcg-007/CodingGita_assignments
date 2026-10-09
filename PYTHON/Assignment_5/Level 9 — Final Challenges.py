@@ -1,5 +1,10 @@
 text=input("Enter Text:")
 even_index = 0
+total = 0
+vowels = 0
+consonants = 0
+uppercase = 0
+lowercase = 0
 
 for i in range(len(text)):
     ch = text[i]
