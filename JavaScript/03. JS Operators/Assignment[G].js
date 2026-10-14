@@ -67,7 +67,7 @@ let a = 10;
 let b = "10";
 
 console.log(typeof a === typeof b)  // false
-console.log(typeof a == typeof b)  // false
+console.log(typeof a == typeof b)  // true
 
 // 13.
 console.log(typeof null === "object")  // true
