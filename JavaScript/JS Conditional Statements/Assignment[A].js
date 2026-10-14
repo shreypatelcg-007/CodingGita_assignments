@@ -45,7 +45,7 @@ if (input7 === "") {
 }
 
 // 8.
-let year8 = 1900;
+let year8 = 2100;
 if (year8 % 100 === 0) {
     console.log("Century Year")  // Century Year
 }
