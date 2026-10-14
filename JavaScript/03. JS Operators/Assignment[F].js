@@ -1,4 +1,4 @@
-// F]:LOGICAL OPERATORS
+// [F]:LOGICAL OPERATORS
 
 //1. Logical AND &&
 
