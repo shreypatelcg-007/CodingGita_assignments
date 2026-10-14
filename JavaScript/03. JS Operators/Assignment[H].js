@@ -3,12 +3,12 @@
 // Part A
 
 // 1.
-let num1 = Number("25");
-console.log(num1 + 10)  // 35
+let num = Number("25");
+console.log(num + 10)  // 35
 
 // 2.
-let num2 = String(100);
-console.log(num2 + " rupees")  // 100 rupees
+let num = String(100);
+console.log(num + " rupees")  // 100 rupees
 
 // 3.
 console.log(Boolean(0))  // false
