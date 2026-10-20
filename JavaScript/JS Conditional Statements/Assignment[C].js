@@ -1,4 +1,4 @@
-//Question -no. 1 ------------
+// 1. 
 
 let month = 4;
 
@@ -16,7 +16,7 @@ if (month == 12 || month == 1 || month == 2) {
 
 
 
-//Question -no. 2 ------------
+// 2. 
 
 let income = 500000;
 let tax;
@@ -34,7 +34,7 @@ if (income < 300000) {
 console.log("Tax Amount = ₹" + tax);
 
 
-//Question -no. 3 ------------
+// 3. 
 
 let score = 85;
 
@@ -49,7 +49,7 @@ if (score >= 90) {
 }
 
 
-//Question -no. 4 ------------
+// 4.
 
 let speed = 60;
 
@@ -62,7 +62,7 @@ if (speed < 40) {
 }
 
 
-//Question -no. 5 ------------
+// 5.
 
 let height = 165;
 
@@ -75,7 +75,7 @@ if (height < 150) {
 }
 
 
-//Question -no. 6 ------------
+// 6.
 
 let day = 6;
 
@@ -88,7 +88,7 @@ if (day >= 1 && day <= 5) {
 }
 
 
-//Question -no. 7 ------------
+// 7.
 
 let units = 100;
 let bill;
@@ -104,7 +104,7 @@ if (units <= 50) {
 console.log("Total Bill = ₹" + bill);
 
 
-//Question -no. 8 ------------
+// 8.
 
 let attendance = 80;
 
@@ -119,7 +119,7 @@ if (attendance >= 90) {
 }
 
 
-//Question -no. 9 ------------
+// 9.
 
 let marks1 = 75;
 let marks2 = 90;
@@ -134,7 +134,7 @@ if (marks1 > marks2 && marks1 > marks3) {
 }
 
 
-//Question -no. 10 ------------
+// 10.
 
 let number = -7;
 
