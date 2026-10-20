@@ -15,6 +15,7 @@ if (month == 12 || month == 1 || month == 2) {
 }
 
 
+
 //Question -no. 2 ------------
 
 let income = 500000;
