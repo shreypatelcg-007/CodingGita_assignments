@@ -76,7 +76,8 @@ if (year % 4 == 0) {
     console.log("Not a Leap Year");
 }
 
-// 6. Email Validation
+// 6. 
+
 let email = "student123@gmail.com";
 
 if (email.includes("@")) {
@@ -93,7 +94,8 @@ if (email.includes("@")) {
     console.log("Email Must Contain @");
 }
 
-// 7. Online Shopping Discount
+// 7. 
+
 let total = 1500;
 let premium = true;
 let finalAmount;
@@ -110,7 +112,8 @@ if (total >= 1000) {
 
 console.log("Final Amount: ₹" + finalAmount);
 
-// 8. Positive, Even and Divisible by 4
+// 8. 
+
 let number = 8;
 
 if (number > 0) {
@@ -127,4 +130,3 @@ if (number > 0) {
     console.log("Number is Not Positive");
 }
 
-//
