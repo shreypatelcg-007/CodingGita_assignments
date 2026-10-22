@@ -73,6 +73,17 @@ for (let i = 1; i <= 8; i++){
     num = num * 2;
 }
 
+// 8.
+num=4729;
+numStr=String(num);
+let sum = 0 ;
+for(i=1; i<=numStr.length; i++){
+    let last_dig = num%10;
+    sum+=last_dig;
+    num = Math.floor(num/10);
+}
+console.log(sum)
+
 // 9.
 let marks = [45, 78, 90, 32, 56, 88];
 let sum = 0;
