@@ -28,16 +28,14 @@ for (let i = 1; i <= 100; i++){
 }
 
 // 4.
-let string = "JavaScript";
-let result = "";
-
-for (let i = 0; i < string.length; i++){
-    let ch = string[i].toLowerCase();
-    if(ch !== "a" && ch !== "e" && ch !== "i" && ch !== "o" && ch !== "u"){
-        result += str[i];
+let str = "JavaScript";
+let newStr=""
+for(let i=0; i<=str.length-1; i++){
+    if(str[i]!="a" && str[i]!="e" && str[i]!="i" && str[i]!="o" && str[i]!="u"){
+        newStr+=str[i];
     }
 }
-console.log("Consonants:", result)
+console.log(newStr)
 
 // 5.
 let numbers = [12, 45, 23, 89, 34, 67];
@@ -102,3 +100,5 @@ for (let i = 0; i < marks.length; i++){
 }
 console.log("Average:", average)
 console.log("Students above average:", count)
+
+
