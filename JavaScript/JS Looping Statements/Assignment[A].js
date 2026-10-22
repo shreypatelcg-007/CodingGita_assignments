@@ -31,3 +31,33 @@ for (let i = 1; i <= 10; i++) {
 for (let i = 1; i <= 7; i++) {
     console.log("Day " + i + ": " + (i * 3) + " glasses")  
 }
+
+// Q7. 
+for (let i = 1; i <= 10; i++) {
+    if (i === 1) {
+        console.log(i + " chocolate = ₹" + (i * 15))  
+    } else {
+        console.log(i + " chocolates = ₹" + (i * 15))  
+    }
+}
+
+// Q8. 
+let sum = 0;
+for (let i = 2; i <= 30; i += 2) {
+    sum += i;
+}
+console.log("Sum of even numbers: " + sum)  
+
+// Q9. 
+for (let i = 1; i <= 7; i++) {
+    console.log("Day " + i + ": " + (i * 5) + " push-ups")  
+}
+
+// Q10. 
+for (let i = 1; i <= 8; i++) {
+    if (i === 1) {
+        console.log(i + " person: ₹" + (i * 150))  
+    } else {
+        console.log(i + " people: ₹" + (i * 150))  
+    }
+}
