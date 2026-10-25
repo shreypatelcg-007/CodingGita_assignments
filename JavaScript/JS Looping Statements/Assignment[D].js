@@ -1,4 +1,4 @@
-// Q1. Numbers from 50 down to 1 divisible by 3 but not by 9
+// Q1.
 
 for (let i = 50; i >= 1; i--) {
     if (i % 3 === 0 && i % 9 !== 0)
@@ -6,7 +6,7 @@ for (let i = 50; i >= 1; i--) {
 }
 
 
-// Q2. Product of all odd digits of a number (4729 = 7 * 9 = 63)
+// Q2.
 
 let num = 4729;
 let product = 1;
@@ -24,7 +24,7 @@ for (; num > 0; num = Math.floor(num / 10)) {
 console.log(found ? product : "No odd digits")  // 63
 
 
-// Q3. Print consonants of "Programming" in reverse order
+// Q3. 
 
 let str = "Programming";
 let result = "";
@@ -39,7 +39,7 @@ for (let i = str.length - 1; i >= 0; i--) {
 console.log(result)  // gmmrg rP (actual output: gmmrg rP without the space? See correction below)
 
 
-// Q4. First 15 Fibonacci numbers in reverse order
+// Q4. 
 
 let a = 0;
 let b = 1;
@@ -57,7 +57,7 @@ for (let i = 14; i >= 0; i--) {
 }
 
 
-// Q5. Check whether a number is a palindrome without converting to a string
+// Q5. 
 
 let num2 = 1221;
 let original = num2;
@@ -71,7 +71,7 @@ for (; num2 > 0; num2 = Math.floor(num2 / 10)) {
 console.log(original === reversed ? "Palindrome" : "Not Palindrome")  // Palindrome
 
 
-// Q6. Find the largest number less than 50
+// Q6. 
 
 let arr = [12, 45, 7, 23, 56, 89, 34];
 let largest = -Infinity;
@@ -84,7 +84,7 @@ for (let i = arr.length - 1; i >= 0; i--) {
 console.log(largest)  // 45
 
 
-// Q7. Count days colder than 30°C
+// Q7. 
 
 let temperatures = [32, 28, 41, 19, 35, 27, 38];
 let count = 0;
@@ -97,7 +97,7 @@ for (let i = temperatures.length - 1; i >= 0; i--) {
 console.log(count)  // 3
 
 
-// Q8. Convert decimal to binary and print binary digits in reverse order
+// Q8. 
 
 let decimal = 13;
 let binary = "";
@@ -109,7 +109,7 @@ for (; decimal > 0; decimal = Math.floor(decimal / 2)) {
 console.log(binary)  // 1011
 
 
-// Q9. Reverse loop with break: first score greater than 80
+// Q9.
 
 let scores = [90, 85, 70, 95, 60, 88, 75];
 
@@ -122,7 +122,7 @@ for (let i = scores.length - 1; i >= 0; i--) {
 }
 
 
-// Q10. Reverse loop with continue: skip perfect squares
+// Q10. 
 
 for (let i = 40; i >= 1; i--) {
     let square = false;
